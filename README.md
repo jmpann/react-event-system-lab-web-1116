@@ -1,8 +1,25 @@
+class Tickler extends React.Component {
+  constructor() {
+    super();
+
+    this.tickle = this.tickle.bind(this);
+  }
+
+  tickle() {
+    console.log('Tee hee!');
+  }
+
+  render() {
+    return (
+      <button>Tickle me!</button>
+    );
+  }
+}
 # React Event System Lab
 
 ## Overview
 
-In this lab you'll respond to events in React and write event handlers. 
+In this lab you'll respond to events in React and write event handlers.
 
 ## Keypad
 ![Keypad](https://media.giphy.com/media/3o6MbdTboTFWOUsLkc/giphy.gif)
